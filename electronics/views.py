@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import Page
 
 # Create your views here.
 def page(request):
-    return render(request, 'electronics/page.html', {})
+    pages = Page.objects.all()
+    return render(request, 'electronics/page.html', {'pages':pages})

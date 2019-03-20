@@ -6,9 +6,12 @@
         <div>
             <h1><a href="/">RAIT Electronics</a></h1>
         </div>
-        <div>
-            
-        </div>
+        
+        {% for page in pages %}
+            <div>
+                <p>{{ page.text }}</p>
+            </div>
+        {% endfor %}
 
     </body>
 </html>
