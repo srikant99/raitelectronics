@@ -1,17 +1,38 @@
+{% load static %}
 <html>
     <head>
         <title>Rait Electronics</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/electronics.css' %}">
     </head>
     <body>
-        <div>
-            <h1><a href="/">RAIT Electronics</a></h1>
+        <div class="page-header">
+        <h1>RAIT Electronics</h1>
         </div>
-        
-        {% for page in pages %}
-            <div>
-                <p>{{ page.text }}</p>
-            </div>
-        {% endfor %}
+        <div class="content">
+        <strong><p>
+            All electronic components required for your project.
+            Delivered to you in your college
+        </p></strong>
+        <h3>Just Rs 50 per delivery</h3>
+        </div>
+        <div class="how-this-works">
+            <h2>How this works?</h2>
+            <ol>
+                <li>Whatsapp us a detailed list of electronic components you require for your project
+                    along with your name.</li>
+                <li>We will pick up all the electronic components for you.</li>
+                <li>Deliver it to you in your college.
+                    Pay us on delivery.
+                </li>
+            </ol>
+        </div>
+        <div class="whatsapp">
+            <strong>Whatsapp us on 7977250824</strong>
+        </div>
+        <h6><em>Once we pick your order you can't cancel it.</em></h6>
 
     </body>
 </html>

@@ -1,0 +1,49 @@
+.page-header {
+    background-color: red;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.content {
+    background-image: url("arduino.jpg");
+    background-position: center;
+    height: 250px;
+    background-size: cover;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.content h3, .content p{
+    text-align: center;
+
+}
+
+.content p{
+    font-size: 50px;
+    color: white;
+}
+
+.content h3{
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.how-this-works h2{
+    text-align: center;
+}
+
+.how-this-works ol {
+    font-size: 25px;
+    font-style: Roboto;
+    background-color: #EFF4EE;
+}
+
+.whatsapp{
+    text-align: center;
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 15px;
+    color: red;
+}
