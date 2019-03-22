@@ -7,14 +7,15 @@
 .content {
     background-image: url("arduino.jpg");
     background-position: center;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     padding: 10px 10px 10px 10px;
     
 }
 
-.content h3, .content p{
+.content p{
     text-align: center;
+    padding: 20px 20px 20px 20px;
 
 }
 
